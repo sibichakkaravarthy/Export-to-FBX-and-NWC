@@ -35,7 +35,7 @@ TransactionManager.Instance.EnsureInTransaction(doc)
 for i in range(len(solid)):
 	ds = DirectShape.CreateElement(doc, catId)
 	ds.SetShape(solid[i].ToRevitType())
-	ds.Name = "This is the Name"
+	ds.Name = "Sibi Chakkaravarthy S"
 	solidList.append(ds)
 	solidIds.append(ds.Id)
 
